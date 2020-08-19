@@ -1,4 +1,4 @@
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import React from "react"
 import { graphql } from "gatsby"
 import marked from "marked"
