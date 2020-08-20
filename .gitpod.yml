@@ -2,8 +2,11 @@ image: gitpod/workspace-full
 
 tasks:
   - init: yarn install
-    command: gatsby develop
+    command: yarn start
 
 ports:
   - port: 8000
     onOpen: open-preview
+
+  - port: 9229
+    onOpen: ignore
