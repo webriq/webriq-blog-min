@@ -1,18 +1,5 @@
 const path = require("path")
 
-// exports.onCreateNode = ({ node, actions, getNode }) => {
-//   const { createNodeField } = actions
-
-//   if (node.internal.type === `MarkdownRemark`) {
-//     const value = createFilePath({ node, getNode, basePath: `posts` })
-//     createNodeField({
-//       name: `slug`,
-//       node,
-//       value,
-//     })
-//   }
-// }
-
 const makeRequest = (graphql, request) =>
   new Promise((resolve, reject) => {
     // Query for nodes to use in creating pages.
